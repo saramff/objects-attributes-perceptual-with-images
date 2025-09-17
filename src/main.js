@@ -322,7 +322,7 @@ let instructionsSentencePresentation = {
   stimulus: `
     <p>En esta tarea verás una serie de objetos que aparecerán uno a uno en el centro de la pantalla.</p>
     <p>Cuando aparezca el objeto, deberás hacer lo siguiente:</p>
-    </p>En algunas ocasiones, el objeto aparecerá y desaparecerá automáticamente. No debes hacer nada más que observarlo antentamente.</p>
+    </p>En algunas ocasiones, el objeto aparecerá y desaparecerá automáticamente. No debes hacer nada más que observarlo atentamente.</p>
     </p></p>
     </p>En otras ocasiones, tras el objeto aparecerá una frase relacionada y tendrás que indicar si es o no consistente con el objeto.</p>
     <p>Si la frase es CONSISTENTE, pulse la tecla '${correctKey.toUpperCase()}' (sí).</p>
@@ -331,7 +331,6 @@ let instructionsSentencePresentation = {
     </p></p>
     <p>Te recomendamos colocar los dedos sobre las teclas ${correctKey.toUpperCase()} y ${incorrectKey.toUpperCase()} durante la tarea para no olvidarlas.</p>
     </p>Por ejemplo: primero te aparece la imagen de una caja abierta. Inmediatamente después, la imagen desaparece y te aparece la siguiente frase: "La caja está cerrada". En este caso, deberás pulsar "NO".</p>
-    </p>Tendrás que responder lo más rápido posible, ya que si tardas, la frase desaparecerá y continuará el experimento sin haber registrado tu respuesta.</p>
     <br />
     <div>
       <img src='https://raw.githubusercontent.com/saramff/objects-attributes-images/refs/heads/master/Caja.jpg'  class="img-instructions" />
